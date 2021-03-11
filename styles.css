@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+    font-family: 'Rubik', sans-serif;
+    margin:0;}
+
+header{background-color: brown; margin:2%; border-radius: 2%; width: 95%;}
+.header h1{text-align: center;}
+div{
+    box-sizing: border-box;
+}
+
+div.instagram-post{
+    background: white; 
+    width: 450px; height: 500px;
+    position: absolute; 
+    top: 70%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    margin: 10px;
+    border-radius: 2%;}
+
+div.instagram-post .instagram-header div:first-child{
+    overflow: hidden; 
+    width: 80%;
+    height: 50px; 
+    margin: 1%;
+    display: inline;
+    background-color: yellow;}
+
+
+div.instagram-post .instagram-header div:last-child{
+    overflow: hidden; 
+    width: 10%;
+    height: 50px; 
+    margin: 1%;
+    display: inline;
+    background-color: green;}    
+
+.span{display: inline-block;}
+
+.instagram-body{
+    overflow: hidden;
+    height: 280px;
+    margin: 0%;}
+.instagram-body img{width: 100%;}
+
+.instagram-footer{
+    overflow: hidden; 
+    height: 205px; 
+    margin: 1%; }
+.coments{
+    margin: 4%;}
+
+div.instagram-post-1{
+    background: white; 
+    width: 450px; height: 500px;
+    position: absolute; 
+    top: 186%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    margin: 10px;
+    border-radius: 2%;}
+
+div.instagram-post-2{
+    background: white; 
+    width: 450px; height: 500px;
+    position: absolute; 
+    top: 302%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    margin: 10px;
+    border-radius: 2%;}
+    
+div.instagram-post-3{
+    background: white; 
+    width: 450px; height: 500px;
+    position: absolute; 
+    top: 418%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    margin: 10px;
+    border-radius: 2%;} 
+.instagram-body-3 img{width: 100%;}  
+
+    
+div.instagram-post-4{
+    background: white; 
+    width: 450px; height: 500px;
+    position: absolute; 
+    top: 534%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    margin: 10px;
+    border-radius: 2%;} 
+.instagram-body-4 img{width: 100%;} 
